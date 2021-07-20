@@ -1,7 +1,7 @@
 package io.guthub.maximilianoalves.payloads;
 
 import com.google.gson.Gson;
-import io.guthub.maximilianoalves.payloads.model.LoginModel;
+import io.guthub.maximilianoalves.payloads.model.login.LoginModel;
 
 public class LoginPayload {
 

@@ -1,4 +1,4 @@
-package io.guthub.maximilianoalves.payloads.model;
+package io.guthub.maximilianoalves.payloads.model.login;
 
 import com.google.gson.Gson;
 import lombok.Getter;

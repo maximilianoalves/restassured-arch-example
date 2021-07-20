@@ -9,6 +9,8 @@ import static io.restassured.RestAssured.*;
 
 public class LoginRequest {
 
+    private final String PATH_LOGIN = "/login";
+
     @Step("Realizar login")
     public Response logar(String email, String password) {
         return given()
@@ -16,7 +18,7 @@ public class LoginRequest {
                     .header("Content-Type", "application/json")
                 .when()
                     .body(LoginPayload.toJson(email, password))
-                    .post("/login");
+                    .post(PATH_LOGIN);
     }
 
     public String getBearerToken(String email, String password) {
