@@ -1,0 +1,5 @@
+target
+.allure/
+.idea
+.settings
+.DS_Store
