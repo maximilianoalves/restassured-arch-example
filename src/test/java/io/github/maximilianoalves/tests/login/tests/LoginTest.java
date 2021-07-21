@@ -6,6 +6,8 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.http.HttpStatus;
+import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.Matchers.equalTo;
@@ -17,6 +19,7 @@ public class LoginTest extends BaseTest {
     LoginRequest loginRequest = new LoginRequest();
 
     @Test
+    @Tag("todos")
     @Description("Deve realizar o login com sucesso.")
     public void deveRealizarOLoginComSucesso() throws Exception {
         loginRequest.logar("fulano@qa.com", "teste")
