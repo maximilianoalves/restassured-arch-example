@@ -8,6 +8,6 @@ import org.junit.runner.RunWith;
 
 @RunWith(JUnitPlatform.class)
 @SelectPackages("io.github.maximilianoalves.tests")
-@IncludeTags("contratos")
-public class ContratosTestsRunner {
+@IncludeTags("schemas")
+public class SchemasTestsRunner {
 }

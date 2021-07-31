@@ -31,7 +31,7 @@ public class ListarUsuariosTest extends BaseTest {
                 .time(lessThan(2L), TimeUnit.SECONDS);
     }
 
-    @Tag("contratos")
+    @Tag("schemas")
     @Tag("todos")
     @Test
     @Description("Deve validar o contrato da lista de usuários")
@@ -39,7 +39,7 @@ public class ListarUsuariosTest extends BaseTest {
         usuarios.listar()
                 .then()
                 .statusCode(HttpStatus.SC_OK)
-                .body(matchesJsonSchemaInClasspath("contratos/usuarios/lista-usuarios.json"));
+                .body(matchesJsonSchemaInClasspath("schemas/usuarios/lista-usuarios.json"));
     }
 
     @Test
@@ -54,7 +54,7 @@ public class ListarUsuariosTest extends BaseTest {
                 .time(lessThan(2L), TimeUnit.SECONDS);
     }
 
-    @Tag("contratos")
+    @Tag("schemas")
     @Tag("todos")
     @Test
     @Description("Deve validar o contrato de um usuário utilizando o ID")
@@ -64,6 +64,6 @@ public class ListarUsuariosTest extends BaseTest {
         usuarios.buscarPorId(idUsuario)
                 .then()
                 .statusCode(HttpStatus.SC_OK)
-                .body(matchesJsonSchemaInClasspath("contratos/usuarios/usuario.json"));
+                .body(matchesJsonSchemaInClasspath("schemas/usuarios/usuario.json"));
     }
 }
