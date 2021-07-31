@@ -34,12 +34,12 @@ public class ListarUsuariosTest extends BaseTest {
     @Tag("schemas")
     @Tag("todos")
     @Test
-    @Description("Deve validar o contrato da lista de usuários")
-    public void deveValidarContratoListaUsuarios() throws Exception {
+    @Description("Deve validar o schema json da lista de usuários")
+    public void deveValidarSchemaListaUsuarios() throws Exception {
         usuarios.listar()
                 .then()
                 .statusCode(HttpStatus.SC_OK)
-                .body(matchesJsonSchemaInClasspath("schemas/usuarios/lista-usuarios.json"));
+                .body(matchesJsonSchemaInClasspath("schemas/usuarios/usuarios.json"));
     }
 
     @Test
@@ -57,8 +57,8 @@ public class ListarUsuariosTest extends BaseTest {
     @Tag("schemas")
     @Tag("todos")
     @Test
-    @Description("Deve validar o contrato de um usuário utilizando o ID")
-    public void deveValidarContratoUsuarioUtilizandoId() throws Exception {
+    @Description("Deve validar o schema json de um usuário utilizando o ID")
+    public void deveValidarSchemaUsuarioUtilizandoId() throws Exception {
         String idUsuario = usuarios.getIdPrimeiroUsuario();
         log.info("Buscando o id do primeiro usuário " + idUsuario);
         usuarios.buscarPorId(idUsuario)
