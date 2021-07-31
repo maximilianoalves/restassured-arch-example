@@ -1,0 +1,194 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "io.github.maximilianoalves.tests.login.tests.LoginTest",
+    "children" : [ {
+      "name" : "deveRealizarOLoginComSucesso()",
+      "uid" : "5959b379e1d13b5b",
+      "parentUid" : "979200a354287070b7d1e8c1c4db8005",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767598523,
+        "stop" : 1627767602115,
+        "duration" : 3592
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "979200a354287070b7d1e8c1c4db8005"
+  }, {
+    "name" : "io.github.maximilianoalves.tests.usuarios.tests.ListarUsuariosTest",
+    "children" : [ {
+      "name" : "deveListarUsuariosComSucesso()",
+      "uid" : "f22d72959c7bf7ad",
+      "parentUid" : "ad892f95041f19a2b74e4506d7b70392",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767602297,
+        "stop" : 1627767603175,
+        "duration" : 878
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deveValidarSchemaListaUsuarios()",
+      "uid" : "56552beef0b673f9",
+      "parentUid" : "ad892f95041f19a2b74e4506d7b70392",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767603180,
+        "stop" : 1627767604485,
+        "duration" : 1305
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deveValidarSchemaUsuarioUtilizandoId()",
+      "uid" : "ed94f4c9e064d4c9",
+      "parentUid" : "ad892f95041f19a2b74e4506d7b70392",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767604488,
+        "stop" : 1627767606164,
+        "duration" : 1676
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deveListarUsuarioUtilizandoId()",
+      "uid" : "44a8de0e043952",
+      "parentUid" : "ad892f95041f19a2b74e4506d7b70392",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767606167,
+        "stop" : 1627767607776,
+        "duration" : 1609
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ad892f95041f19a2b74e4506d7b70392"
+  }, {
+    "name" : "io.github.maximilianoalves.tests.usuarios.tests.ExcluirUsuariosTest",
+    "children" : [ {
+      "name" : "excluirUsuarioNaoAdministradorComSucesso()",
+      "uid" : "54ac26b08500b51c",
+      "parentUid" : "e38634a1edd753a159c5014fc6c392bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767607802,
+        "stop" : 1627767609634,
+        "duration" : 1832
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "excluirUsuarioAdministradorComSucesso()",
+      "uid" : "e736fa6119f24aa5",
+      "parentUid" : "e38634a1edd753a159c5014fc6c392bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767609643,
+        "stop" : 1627767611223,
+        "duration" : 1580
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e38634a1edd753a159c5014fc6c392bc"
+  }, {
+    "name" : "io.github.maximilianoalves.tests.usuarios.tests.CadastrarUsuariosTest",
+    "children" : [ {
+      "name" : "deveCadastrarUsuarioNaoAdministradoComSucesso()",
+      "uid" : "e849f28b4346aef9",
+      "parentUid" : "c0ff45c318528d378266337049a56d8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767611233,
+        "stop" : 1627767612046,
+        "duration" : 813
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deveCadastrarUsuarioAdministradoComSucesso()",
+      "uid" : "8b7096729fd8daac",
+      "parentUid" : "c0ff45c318528d378266337049a56d8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767612048,
+        "stop" : 1627767612844,
+        "duration" : 796
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c0ff45c318528d378266337049a56d8b"
+  }, {
+    "name" : "io.github.maximilianoalves.tests.produtos.tests.ListarProdutosTest",
+    "children" : [ {
+      "name" : "deveListarProdutosComSucesso()",
+      "uid" : "375e62102d17d0a6",
+      "parentUid" : "a05f682a0360286db7bf3a40307e9fec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767612862,
+        "stop" : 1627767614040,
+        "duration" : 1178
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deveValidarSchemaListarProdutos()",
+      "uid" : "d5cf82715da7f3ac",
+      "parentUid" : "a05f682a0360286db7bf3a40307e9fec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767614044,
+        "stop" : 1627767614830,
+        "duration" : 786
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deveValidarSchemaUnicoProduto()",
+      "uid" : "9dd240a280e0d93e",
+      "parentUid" : "a05f682a0360286db7bf3a40307e9fec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767614833,
+        "stop" : 1627767616417,
+        "duration" : 1584
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deveBuscarUnicoProdutoSucesso()",
+      "uid" : "fa6c506b0bd3ae6f",
+      "parentUid" : "a05f682a0360286db7bf3a40307e9fec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767616421,
+        "stop" : 1627767617972,
+        "duration" : 1551
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a05f682a0360286db7bf3a40307e9fec"
+  } ],
+  "name" : "suites"
+}
