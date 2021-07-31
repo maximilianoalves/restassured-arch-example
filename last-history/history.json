@@ -1,0 +1,262 @@
+{
+  "a5ef70d70019921779da475376a9fcec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6b602e8003f4847e",
+      "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/1//#testresult/6b602e8003f4847e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767484520,
+        "stop" : 1627767485923,
+        "duration" : 1403
+      }
+    } ]
+  },
+  "b24449a1833bbaea1a5e871bf19b33d8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1cd41aad16bcb215",
+      "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/1//#testresult/1cd41aad16bcb215",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767491721,
+        "stop" : 1627767492397,
+        "duration" : 676
+      }
+    } ]
+  },
+  "55ed10a4cb30f9d5915f44f5558217a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b29686d1fa95f252",
+      "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/1//#testresult/b29686d1fa95f252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767479379,
+        "stop" : 1627767482557,
+        "duration" : 3178
+      }
+    } ]
+  },
+  "bf4806e40d423eba63c6b2e9778e9eb1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a30502c346642bed",
+      "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/1//#testresult/a30502c346642bed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767488899,
+        "stop" : 1627767490254,
+        "duration" : 1355
+      }
+    } ]
+  },
+  "d7f546ab7e0da339bee9793de5f28edb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7364e18d22b99860",
+      "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/1//#testresult/7364e18d22b99860",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767485931,
+        "stop" : 1627767487270,
+        "duration" : 1339
+      }
+    } ]
+  },
+  "52bbb4a30734eed47fa38d571240750c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fcd77037722c7137",
+      "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/1//#testresult/fcd77037722c7137",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767483463,
+        "stop" : 1627767484516,
+        "duration" : 1053
+      }
+    } ]
+  },
+  "d8e7bc535c377949a8d8e375ee8a55a5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "414dc9e8b331a195",
+      "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/1//#testresult/414dc9e8b331a195",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767490993,
+        "stop" : 1627767491693,
+        "duration" : 700
+      }
+    } ]
+  },
+  "6009e872572bc99a74bc58fab4a88f30" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bf36aa41c29b4934",
+      "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/1//#testresult/bf36aa41c29b4934",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767482736,
+        "stop" : 1627767483457,
+        "duration" : 721
+      }
+    } ]
+  },
+  "c2eb688d16439f5a01422d6e0d283795" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4934c41899d9ab50",
+      "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/1//#testresult/4934c41899d9ab50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767494456,
+        "stop" : 1627767495785,
+        "duration" : 1329
+      }
+    } ]
+  },
+  "9dc3a620269f94751e5e53c5e468b7e1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da793fe4ddada8a2",
+      "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/1//#testresult/da793fe4ddada8a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767490282,
+        "stop" : 1627767490987,
+        "duration" : 705
+      }
+    } ]
+  },
+  "5c4231ec588cbe88cc615e73c96deb3c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dfebed97adb99e1c",
+      "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/1//#testresult/dfebed97adb99e1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767493085,
+        "stop" : 1627767494453,
+        "duration" : 1368
+      }
+    } ]
+  },
+  "81eb05e0f06427e74a4579443752b53a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f0102f449ade90b5",
+      "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/1//#testresult/f0102f449ade90b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767492399,
+        "stop" : 1627767493082,
+        "duration" : 683
+      }
+    } ]
+  },
+  "c0c3af50bc67b08ffb46edbb862f2a65" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "79ce3d42e7729c7b",
+      "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/1//#testresult/79ce3d42e7729c7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627767487282,
+        "stop" : 1627767488896,
+        "duration" : 1614
+      }
+    } ]
+  }
+}

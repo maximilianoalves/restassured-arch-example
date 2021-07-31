@@ -1,0 +1,108 @@
+{
+  "uid" : "fcd77037722c7137",
+  "name" : "deveValidarSchemaListaUsuarios()",
+  "fullName" : "io.github.maximilianoalves.tests.usuarios.tests.ListarUsuariosTest.deveValidarSchemaListaUsuarios",
+  "historyId" : "52bbb4a30734eed47fa38d571240750c",
+  "time" : {
+    "start" : 1627767483463,
+    "stop" : 1627767484516,
+    "duration" : 1053
+  },
+  "description" : "Deve validar o schema json da lista de usuários",
+  "descriptionHtml" : "<p>Deve validar o schema json da lista de usuários</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1627767482715,
+      "stop" : 1627767482732,
+      "duration" : 17
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Deve validar o schema json da lista de usuários",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Listar usuários cadastrados",
+      "time" : {
+        "start" : 1627767483464,
+        "stop" : 1627767484140,
+        "duration" : 676
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "schemas"
+  }, {
+    "name" : "tag",
+    "value" : "todos"
+  }, {
+    "name" : "feature",
+    "value" : "Listar usuários"
+  }, {
+    "name" : "host",
+    "value" : "fv-az137-824"
+  }, {
+    "name" : "thread",
+    "value" : "2667@fv-az137-824.ForkJoinPool-1-worker-3(15)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "io.github.maximilianoalves.tests.usuarios.tests.ListarUsuariosTest"
+  }, {
+    "name" : "testClass",
+    "value" : "io.github.maximilianoalves.tests.usuarios.tests.ListarUsuariosTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deveValidarSchemaListaUsuarios"
+  }, {
+    "name" : "suite",
+    "value" : "io.github.maximilianoalves.tests.usuarios.tests.ListarUsuariosTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "schemas", "todos" ]
+  },
+  "source" : "fcd77037722c7137.json",
+  "parameterValues" : [ ]
+}
