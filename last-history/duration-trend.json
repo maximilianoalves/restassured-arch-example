@@ -3,6 +3,13 @@
   "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/2/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 19349
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/2/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 17488
   }
 }, {

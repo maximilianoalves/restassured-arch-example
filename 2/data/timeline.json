@@ -1,182 +1,182 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az105-193",
+    "name" : "fv-az91-389",
     "children" : [ {
-      "name" : "2645@fv-az105-193.ForkJoinPool-1-worker-3(15)",
+      "name" : "2686@fv-az91-389.ForkJoinPool-1-worker-3(15)",
       "children" : [ {
-        "name" : "deveValidarSchemaUnicoProduto()",
-        "uid" : "74ab60c319775554",
-        "parentUid" : "158c7bfcb1eb1075129f8e8751ba23f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627767744320,
-          "stop" : 1627767745718,
-          "duration" : 1398
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "deveCadastrarUsuarioNaoAdministradoComSucesso()",
-        "uid" : "e580e721ffc283dd",
-        "parentUid" : "158c7bfcb1eb1075129f8e8751ba23f9",
+        "uid" : "9180e5982de3b222",
+        "parentUid" : "e9e65d38959b2e0c63c0b071478c6299",
         "status" : "passed",
         "time" : {
-          "start" : 1627767741494,
-          "stop" : 1627767742227,
-          "duration" : 733
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "deveValidarSchemaListaUsuarios()",
-        "uid" : "1fee650a235cc30a",
-        "parentUid" : "158c7bfcb1eb1075129f8e8751ba23f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627767734381,
-          "stop" : 1627767735509,
-          "duration" : 1128
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "deveValidarSchemaUsuarioUtilizandoId()",
-        "uid" : "2e3281fdf47ddbd9",
-        "parentUid" : "158c7bfcb1eb1075129f8e8751ba23f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627767735513,
-          "stop" : 1627767737073,
-          "duration" : 1560
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "excluirUsuarioAdministradorComSucesso()",
-        "uid" : "7722d4dce4b68827",
-        "parentUid" : "158c7bfcb1eb1075129f8e8751ba23f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627767740112,
-          "stop" : 1627767741486,
-          "duration" : 1374
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "deveListarUsuariosComSucesso()",
-        "uid" : "d3b231c7823f624c",
-        "parentUid" : "158c7bfcb1eb1075129f8e8751ba23f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627767733621,
-          "stop" : 1627767734374,
-          "duration" : 753
+          "start" : 1628258251860,
+          "stop" : 1628258252716,
+          "duration" : 856
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "deveCadastrarUsuarioAdministradoComSucesso()",
-        "uid" : "e7dc26dbd31ab99f",
-        "parentUid" : "158c7bfcb1eb1075129f8e8751ba23f9",
+        "uid" : "28fbbc83a14297e7",
+        "parentUid" : "e9e65d38959b2e0c63c0b071478c6299",
         "status" : "passed",
         "time" : {
-          "start" : 1627767742235,
-          "stop" : 1627767742946,
-          "duration" : 711
+          "start" : 1628258252721,
+          "stop" : 1628258254032,
+          "duration" : 1311
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "excluirUsuarioNaoAdministradorComSucesso()",
-        "uid" : "eed0069090f14c9a",
-        "parentUid" : "158c7bfcb1eb1075129f8e8751ba23f9",
+        "name" : "deveValidarSchemaListaUsuarios()",
+        "uid" : "b559ed2af4623c30",
+        "parentUid" : "e9e65d38959b2e0c63c0b071478c6299",
         "status" : "passed",
         "time" : {
-          "start" : 1627767738471,
-          "stop" : 1627767740104,
-          "duration" : 1633
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "deveValidarSchemaListarProdutos()",
-        "uid" : "683f331cc5d562eb",
-        "parentUid" : "158c7bfcb1eb1075129f8e8751ba23f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627767743645,
-          "stop" : 1627767744317,
-          "duration" : 672
+          "start" : 1628258243649,
+          "stop" : 1628258244824,
+          "duration" : 1175
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "deveRealizarOLoginComSucesso()",
-        "uid" : "9bdc9ed242a01d62",
-        "parentUid" : "158c7bfcb1eb1075129f8e8751ba23f9",
+        "uid" : "d28525cc245e98a8",
+        "parentUid" : "e9e65d38959b2e0c63c0b071478c6299",
         "status" : "passed",
         "time" : {
-          "start" : 1627767729568,
-          "stop" : 1627767733488,
-          "duration" : 3920
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "deveListarUsuarioUtilizandoId()",
-        "uid" : "a376eede482342fb",
-        "parentUid" : "158c7bfcb1eb1075129f8e8751ba23f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627767737078,
-          "stop" : 1627767738457,
-          "duration" : 1379
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "deveBuscarUnicoProdutoSucesso()",
-        "uid" : "261682411942b09c",
-        "parentUid" : "158c7bfcb1eb1075129f8e8751ba23f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627767745723,
-          "stop" : 1627767747056,
-          "duration" : 1333
+          "start" : 1628258239665,
+          "stop" : 1628258242553,
+          "duration" : 2888
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "deveListarProdutosComSucesso()",
-        "uid" : "13f0ef6195d8c995",
-        "parentUid" : "158c7bfcb1eb1075129f8e8751ba23f9",
+        "uid" : "e48ac0ff91ca560e",
+        "parentUid" : "e9e65d38959b2e0c63c0b071478c6299",
         "status" : "passed",
         "time" : {
-          "start" : 1627767742985,
-          "stop" : 1627767743642,
-          "duration" : 657
+          "start" : 1628258254051,
+          "stop" : 1628258254882,
+          "duration" : 831
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "deveValidarSchemaUnicoProduto()",
+        "uid" : "e25f333c62bcfd2b",
+        "parentUid" : "e9e65d38959b2e0c63c0b071478c6299",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628258255713,
+          "stop" : 1628258257374,
+          "duration" : 1661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "deveListarUsuariosComSucesso()",
+        "uid" : "192ed2ba7bb74cf0",
+        "parentUid" : "e9e65d38959b2e0c63c0b071478c6299",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628258242710,
+          "stop" : 1628258243645,
+          "duration" : 935
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "deveBuscarUnicoProdutoSucesso()",
+        "uid" : "b1a448beb830494e",
+        "parentUid" : "e9e65d38959b2e0c63c0b071478c6299",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628258257380,
+          "stop" : 1628258259014,
+          "duration" : 1634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "deveValidarSchemaUsuarioUtilizandoId()",
+        "uid" : "bd4e7e39c9a07921",
+        "parentUid" : "e9e65d38959b2e0c63c0b071478c6299",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628258244827,
+          "stop" : 1628258246606,
+          "duration" : 1779
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "deveListarUsuarioUtilizandoId()",
+        "uid" : "deec72630637e76b",
+        "parentUid" : "e9e65d38959b2e0c63c0b071478c6299",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628258246609,
+          "stop" : 1628258248251,
+          "duration" : 1642
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "excluirUsuarioAdministradorComSucesso()",
+        "uid" : "85b9888fb3717e76",
+        "parentUid" : "e9e65d38959b2e0c63c0b071478c6299",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628258250195,
+          "stop" : 1628258251853,
+          "duration" : 1658
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "deveValidarSchemaListarProdutos()",
+        "uid" : "585f45d782b86a0a",
+        "parentUid" : "e9e65d38959b2e0c63c0b071478c6299",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628258254885,
+          "stop" : 1628258255711,
+          "duration" : 826
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "excluirUsuarioNaoAdministradorComSucesso()",
+        "uid" : "8a589f3c7a55771c",
+        "parentUid" : "e9e65d38959b2e0c63c0b071478c6299",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628258248274,
+          "stop" : 1628258250192,
+          "duration" : 1918
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "158c7bfcb1eb1075129f8e8751ba23f9"
+      "uid" : "e9e65d38959b2e0c63c0b071478c6299"
     } ],
-    "uid" : "2ca9bdf6aa77c67ede4bbeb346a7efb3"
+    "uid" : "3a58055b988037b861e5ba1ae5265ba4"
   } ],
   "name" : "timeline"
 }
