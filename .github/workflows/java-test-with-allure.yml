@@ -1,4 +1,4 @@
-name: Java CI
+name: Java CI para executar o teste e salvar o report no gh-pages.
 
 on:
   push:
