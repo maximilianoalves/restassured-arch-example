@@ -1,5 +1,12 @@
 [ {
   "buildOrder" : 3,
+  "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-example/3/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 17115
+  }
+}, {
+  "buildOrder" : 3,
   "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/3/",
   "reportName" : "Allure Report with history",
   "data" : {
