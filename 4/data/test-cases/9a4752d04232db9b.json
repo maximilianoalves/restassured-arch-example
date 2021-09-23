@@ -1,0 +1,173 @@
+{
+  "uid" : "9a4752d04232db9b",
+  "name" : "deveCadastrarUsuarioAdministradoComSucesso()",
+  "fullName" : "io.github.maximilianoalves.tests.usuarios.tests.CadastrarUsuariosTest.deveCadastrarUsuarioAdministradoComSucesso",
+  "historyId" : "d8e7bc535c377949a8d8e375ee8a55a5",
+  "time" : {
+    "start" : 1632424098696,
+    "stop" : 1632424099540,
+    "duration" : 844
+  },
+  "description" : "Deve cadastrar um usuário administrador com sucesso",
+  "descriptionHtml" : "<p>Deve cadastrar um usuário administrador com sucesso</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1632424097829,
+      "stop" : 1632424097830,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Deve cadastrar um usuário administrador com sucesso",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Cadastrar usuários",
+      "time" : {
+        "start" : 1632424098697,
+        "stop" : 1632424099510,
+        "duration" : 813
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "administrador",
+        "value" : "true"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "todos"
+  }, {
+    "name" : "feature",
+    "value" : "Cadastrar usuários"
+  }, {
+    "name" : "host",
+    "value" : "fv-az96-358"
+  }, {
+    "name" : "thread",
+    "value" : "3541@fv-az96-358.ForkJoinPool-1-worker-3(15)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "io.github.maximilianoalves.tests.usuarios.tests.CadastrarUsuariosTest"
+  }, {
+    "name" : "testClass",
+    "value" : "io.github.maximilianoalves.tests.usuarios.tests.CadastrarUsuariosTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deveCadastrarUsuarioAdministradoComSucesso"
+  }, {
+    "name" : "suite",
+    "value" : "io.github.maximilianoalves.tests.usuarios.tests.CadastrarUsuariosTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "8fef8ab357db00a2",
+        "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-example/3//#testresult/8fef8ab357db00a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629401632604,
+          "stop" : 1629401633313,
+          "duration" : 709
+        }
+      }, {
+        "uid" : "fae7a196e7e365c5",
+        "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/3//#testresult/fae7a196e7e365c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628270266640,
+          "stop" : 1628270267452,
+          "duration" : 812
+        }
+      }, {
+        "uid" : "28fbbc83a14297e7",
+        "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/2//#testresult/28fbbc83a14297e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628258252721,
+          "stop" : 1628258254032,
+          "duration" : 1311
+        }
+      }, {
+        "uid" : "e7dc26dbd31ab99f",
+        "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/2//#testresult/e7dc26dbd31ab99f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627767742235,
+          "stop" : 1627767742946,
+          "duration" : 711
+        }
+      }, {
+        "uid" : "8b7096729fd8daac",
+        "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/2//#testresult/8b7096729fd8daac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627767612048,
+          "stop" : 1627767612844,
+          "duration" : 796
+        }
+      }, {
+        "uid" : "414dc9e8b331a195",
+        "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/1//#testresult/414dc9e8b331a195",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627767490993,
+          "stop" : 1627767491693,
+          "duration" : 700
+        }
+      } ]
+    },
+    "tags" : [ "todos" ]
+  },
+  "source" : "9a4752d04232db9b.json",
+  "parameterValues" : [ ]
+}

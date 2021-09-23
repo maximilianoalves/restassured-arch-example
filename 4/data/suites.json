@@ -1,0 +1,211 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "io.github.maximilianoalves.tests.produtos.tests.ListarProdutosTest",
+    "children" : [ {
+      "name" : "deveListarProdutosComSucesso()",
+      "uid" : "6366d9e0dfadb5e2",
+      "parentUid" : "a05f682a0360286db7bf3a40307e9fec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632424077883,
+        "stop" : 1632424080677,
+        "duration" : 2794
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deveValidarSchemaListarProdutos()",
+      "uid" : "b0a57ec400609a7a",
+      "parentUid" : "a05f682a0360286db7bf3a40307e9fec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632424080761,
+        "stop" : 1632424082212,
+        "duration" : 1451
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deveValidarSchemaUnicoProduto()",
+      "uid" : "e5e2789de6d5d44b",
+      "parentUid" : "a05f682a0360286db7bf3a40307e9fec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632424082223,
+        "stop" : 1632424084496,
+        "duration" : 2273
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deveBuscarUnicoProdutoSucesso()",
+      "uid" : "8d73b785268615a8",
+      "parentUid" : "a05f682a0360286db7bf3a40307e9fec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632424084499,
+        "stop" : 1632424086505,
+        "duration" : 2006
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a05f682a0360286db7bf3a40307e9fec"
+  }, {
+    "name" : "io.github.maximilianoalves.tests.carrinhos.tests.CarrinhosTest",
+    "children" : [ {
+      "name" : "deveListarTodosOsCarrinhosComSucesso()",
+      "uid" : "65047a7a95c69255",
+      "parentUid" : "8a045a25711ba955d5cc9220ebbe1410",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632424086521,
+        "stop" : 1632424087314,
+        "duration" : 793
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8a045a25711ba955d5cc9220ebbe1410"
+  }, {
+    "name" : "io.github.maximilianoalves.tests.login.tests.LoginTest",
+    "children" : [ {
+      "name" : "deveRealizarOLoginComSucesso()",
+      "uid" : "1b6787a278f55201",
+      "parentUid" : "979200a354287070b7d1e8c1c4db8005",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632424087342,
+        "stop" : 1632424088345,
+        "duration" : 1003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "979200a354287070b7d1e8c1c4db8005"
+  }, {
+    "name" : "io.github.maximilianoalves.tests.usuarios.tests.ListarUsuariosTest",
+    "children" : [ {
+      "name" : "deveListarUsuariosComSucesso()",
+      "uid" : "e4832a677d885c78",
+      "parentUid" : "ad892f95041f19a2b74e4506d7b70392",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632424088372,
+        "stop" : 1632424089385,
+        "duration" : 1013
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deveValidarSchemaListaUsuarios()",
+      "uid" : "c51baad0d35c0622",
+      "parentUid" : "ad892f95041f19a2b74e4506d7b70392",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632424089391,
+        "stop" : 1632424090386,
+        "duration" : 995
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deveValidarSchemaUsuarioUtilizandoId()",
+      "uid" : "6bd8aa5991238b0b",
+      "parentUid" : "ad892f95041f19a2b74e4506d7b70392",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632424090393,
+        "stop" : 1632424092253,
+        "duration" : 1860
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deveListarUsuarioUtilizandoId()",
+      "uid" : "f1b0b9f3e5cc3438",
+      "parentUid" : "ad892f95041f19a2b74e4506d7b70392",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632424092255,
+        "stop" : 1632424094043,
+        "duration" : 1788
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ad892f95041f19a2b74e4506d7b70392"
+  }, {
+    "name" : "io.github.maximilianoalves.tests.usuarios.tests.ExcluirUsuariosTest",
+    "children" : [ {
+      "name" : "excluirUsuarioNaoAdministradorComSucesso()",
+      "uid" : "26bdfcfbac01569",
+      "parentUid" : "e38634a1edd753a159c5014fc6c392bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632424094057,
+        "stop" : 1632424096170,
+        "duration" : 2113
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "excluirUsuarioAdministradorComSucesso()",
+      "uid" : "1612aa66bbc4959",
+      "parentUid" : "e38634a1edd753a159c5014fc6c392bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632424096172,
+        "stop" : 1632424097818,
+        "duration" : 1646
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e38634a1edd753a159c5014fc6c392bc"
+  }, {
+    "name" : "io.github.maximilianoalves.tests.usuarios.tests.CadastrarUsuariosTest",
+    "children" : [ {
+      "name" : "deveCadastrarUsuarioNaoAdministradoComSucesso()",
+      "uid" : "da762be7de4a3e2a",
+      "parentUid" : "c0ff45c318528d378266337049a56d8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632424097833,
+        "stop" : 1632424098693,
+        "duration" : 860
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deveCadastrarUsuarioAdministradoComSucesso()",
+      "uid" : "9a4752d04232db9b",
+      "parentUid" : "c0ff45c318528d378266337049a56d8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632424098696,
+        "stop" : 1632424099540,
+        "duration" : 844
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c0ff45c318528d378266337049a56d8b"
+  } ],
+  "name" : "suites"
+}

@@ -1,0 +1,203 @@
+{
+  "uid" : "f1b0b9f3e5cc3438",
+  "name" : "deveListarUsuarioUtilizandoId()",
+  "fullName" : "io.github.maximilianoalves.tests.usuarios.tests.ListarUsuariosTest.deveListarUsuarioUtilizandoId",
+  "historyId" : "d7f546ab7e0da339bee9793de5f28edb",
+  "time" : {
+    "start" : 1632424092255,
+    "stop" : 1632424094043,
+    "duration" : 1788
+  },
+  "description" : "Deve listar um usuário utilizando o ID",
+  "descriptionHtml" : "<p>Deve listar um usuário utilizando o ID</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1632424088368,
+      "stop" : 1632424088370,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Deve listar um usuário utilizando o ID",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Buscar ID do primeiro usuário",
+      "time" : {
+        "start" : 1632424092256,
+        "stop" : 1632424093235,
+        "duration" : 979
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Listar usuários cadastrados",
+        "time" : {
+          "start" : 1632424092256,
+          "stop" : 1632424093212,
+          "duration" : 956
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Buscar usuário por ID",
+      "time" : {
+        "start" : 1632424093238,
+        "stop" : 1632424094042,
+        "duration" : 804
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "id",
+        "value" : "0GDJRjeVVVlw2toY"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "todos"
+  }, {
+    "name" : "feature",
+    "value" : "Listar usuários"
+  }, {
+    "name" : "host",
+    "value" : "fv-az96-358"
+  }, {
+    "name" : "thread",
+    "value" : "3541@fv-az96-358.ForkJoinPool-1-worker-3(15)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "io.github.maximilianoalves.tests.usuarios.tests.ListarUsuariosTest"
+  }, {
+    "name" : "testClass",
+    "value" : "io.github.maximilianoalves.tests.usuarios.tests.ListarUsuariosTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deveListarUsuarioUtilizandoId"
+  }, {
+    "name" : "suite",
+    "value" : "io.github.maximilianoalves.tests.usuarios.tests.ListarUsuariosTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "1df83ebaff240773",
+        "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-example/3//#testresult/1df83ebaff240773",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629401627547,
+          "stop" : 1629401628887,
+          "duration" : 1340
+        }
+      }, {
+        "uid" : "b885286f6fb8301c",
+        "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/3//#testresult/b885286f6fb8301c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628270260730,
+          "stop" : 1628270262322,
+          "duration" : 1592
+        }
+      }, {
+        "uid" : "deec72630637e76b",
+        "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/2//#testresult/deec72630637e76b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628258246609,
+          "stop" : 1628258248251,
+          "duration" : 1642
+        }
+      }, {
+        "uid" : "a376eede482342fb",
+        "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/2//#testresult/a376eede482342fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627767737078,
+          "stop" : 1627767738457,
+          "duration" : 1379
+        }
+      }, {
+        "uid" : "44a8de0e043952",
+        "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/2//#testresult/44a8de0e043952",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627767606167,
+          "stop" : 1627767607776,
+          "duration" : 1609
+        }
+      }, {
+        "uid" : "7364e18d22b99860",
+        "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-template/1//#testresult/7364e18d22b99860",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627767485931,
+          "stop" : 1627767487270,
+          "duration" : 1339
+        }
+      } ]
+    },
+    "tags" : [ "todos" ]
+  },
+  "source" : "f1b0b9f3e5cc3438.json",
+  "parameterValues" : [ ]
+}

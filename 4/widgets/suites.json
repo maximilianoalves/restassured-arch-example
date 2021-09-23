@@ -1,0 +1,70 @@
+{
+  "total" : 6,
+  "items" : [ {
+    "uid" : "a05f682a0360286db7bf3a40307e9fec",
+    "name" : "io.github.maximilianoalves.tests.produtos.tests.ListarProdutosTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "ad892f95041f19a2b74e4506d7b70392",
+    "name" : "io.github.maximilianoalves.tests.usuarios.tests.ListarUsuariosTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "e38634a1edd753a159c5014fc6c392bc",
+    "name" : "io.github.maximilianoalves.tests.usuarios.tests.ExcluirUsuariosTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "c0ff45c318528d378266337049a56d8b",
+    "name" : "io.github.maximilianoalves.tests.usuarios.tests.CadastrarUsuariosTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "8a045a25711ba955d5cc9220ebbe1410",
+    "name" : "io.github.maximilianoalves.tests.carrinhos.tests.CarrinhosTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "979200a354287070b7d1e8c1c4db8005",
+    "name" : "io.github.maximilianoalves.tests.login.tests.LoginTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
