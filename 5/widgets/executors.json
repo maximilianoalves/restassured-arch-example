@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://maximilianoalves.github.io/restassured-arch-example",
+  "buildOrder" : 5,
+  "buildName" : "GitHub Actions Run #1373437150",
+  "buildUrl" : "https://github.com/maximilianoalves/restassured-arch-example/actions/runs/1373437150",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://maximilianoalves.github.io/restassured-arch-example/5/"
+} ]
