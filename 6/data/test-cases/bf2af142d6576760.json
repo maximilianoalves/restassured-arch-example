@@ -1,0 +1,111 @@
+{
+  "uid" : "bf2af142d6576760",
+  "name" : "deveRealizarOLoginComSenhaInvalida()",
+  "fullName" : "io.github.maximilianoalves.tests.login.tests.LoginTest.deveRealizarOLoginComSenhaInvalida",
+  "historyId" : "b05f46d95a20637237c6c0b5ce17ab7d",
+  "time" : {
+    "start" : 1634998516652,
+    "stop" : 1634998517322,
+    "duration" : 670
+  },
+  "description" : "Deve realizar o login com senha inválida.",
+  "descriptionHtml" : "<p>Deve realizar o login com senha inválida.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1634998515991,
+      "stop" : 1634998515992,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Deve realizar o login com senha inválida.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Realizar login - POST",
+      "time" : {
+        "start" : 1634998516652,
+        "stop" : 1634998517310,
+        "duration" : 658
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "fulano@qa.com"
+      }, {
+        "name" : "password",
+        "value" : "test"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "todos"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "host",
+    "value" : "fv-az203-349"
+  }, {
+    "name" : "thread",
+    "value" : "3272@fv-az203-349.ForkJoinPool-1-worker-3(15)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "io.github.maximilianoalves.tests.login.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "io.github.maximilianoalves.tests.login.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deveRealizarOLoginComSenhaInvalida"
+  }, {
+    "name" : "suite",
+    "value" : "io.github.maximilianoalves.tests.login.tests.LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "todos" ]
+  },
+  "source" : "bf2af142d6576760.json",
+  "parameterValues" : [ ]
+}

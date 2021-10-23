@@ -1,0 +1,117 @@
+{
+  "uid" : "7c79c9019740b8c7",
+  "name" : "deveCadastrarUsuarioAdministradorNomeEmBranco()",
+  "fullName" : "io.github.maximilianoalves.tests.usuarios.tests.CadastrarUsuariosTest.deveCadastrarUsuarioAdministradorNomeEmBranco",
+  "historyId" : "7240095b29e8f93f86cc48f96cce86e3",
+  "time" : {
+    "start" : 1634998501252,
+    "stop" : 1634998501927,
+    "duration" : 675
+  },
+  "description" : "Deve cadastrar um usuário administrador nome em branco",
+  "descriptionHtml" : "<p>Deve cadastrar um usuário administrador nome em branco</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1634998495654,
+      "stop" : 1634998496440,
+      "duration" : 786
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Deve cadastrar um usuário administrador nome em branco",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Cadastrar usuários",
+      "time" : {
+        "start" : 1634998501253,
+        "stop" : 1634998501912,
+        "duration" : 659
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nome",
+        "value" : ""
+      }, {
+        "name" : "email",
+        "value" : "anabeatriz.campos@hotmail.com"
+      }, {
+        "name" : "password",
+        "value" : "teste"
+      }, {
+        "name" : "administrador",
+        "value" : "true"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "todos"
+  }, {
+    "name" : "feature",
+    "value" : "Cadastrar usuários"
+  }, {
+    "name" : "host",
+    "value" : "fv-az203-349"
+  }, {
+    "name" : "thread",
+    "value" : "3272@fv-az203-349.ForkJoinPool-1-worker-3(15)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "io.github.maximilianoalves.tests.usuarios.tests.CadastrarUsuariosTest"
+  }, {
+    "name" : "testClass",
+    "value" : "io.github.maximilianoalves.tests.usuarios.tests.CadastrarUsuariosTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deveCadastrarUsuarioAdministradorNomeEmBranco"
+  }, {
+    "name" : "suite",
+    "value" : "io.github.maximilianoalves.tests.usuarios.tests.CadastrarUsuariosTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "todos" ]
+  },
+  "source" : "7c79c9019740b8c7.json",
+  "parameterValues" : [ ]
+}

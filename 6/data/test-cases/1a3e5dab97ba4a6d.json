@@ -1,0 +1,111 @@
+{
+  "uid" : "1a3e5dab97ba4a6d",
+  "name" : "deveListarUsuariosAdministradoresComSucesso()",
+  "fullName" : "io.github.maximilianoalves.tests.usuarios.tests.ListarUsuariosTest.deveListarUsuariosAdministradoresComSucesso",
+  "historyId" : "f47b11d467dc19a1e53568de43bfd67",
+  "time" : {
+    "start" : 1634998506140,
+    "stop" : 1634998506822,
+    "duration" : 682
+  },
+  "description" : "Deve listar os usuários administradores com sucesso.",
+  "descriptionHtml" : "<p>Deve listar os usuários administradores com sucesso.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1634998505447,
+      "stop" : 1634998505447,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Deve listar os usuários administradores com sucesso.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Listar usuários cadastrados",
+      "time" : {
+        "start" : 1634998506140,
+        "stop" : 1634998506803,
+        "duration" : 663
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "queryParam",
+        "value" : "administrador"
+      }, {
+        "name" : "valueParam",
+        "value" : "true"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "todos"
+  }, {
+    "name" : "feature",
+    "value" : "Listar usuários"
+  }, {
+    "name" : "host",
+    "value" : "fv-az203-349"
+  }, {
+    "name" : "thread",
+    "value" : "3272@fv-az203-349.ForkJoinPool-1-worker-3(15)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "io.github.maximilianoalves.tests.usuarios.tests.ListarUsuariosTest"
+  }, {
+    "name" : "testClass",
+    "value" : "io.github.maximilianoalves.tests.usuarios.tests.ListarUsuariosTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deveListarUsuariosAdministradoresComSucesso"
+  }, {
+    "name" : "suite",
+    "value" : "io.github.maximilianoalves.tests.usuarios.tests.ListarUsuariosTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "todos" ]
+  },
+  "source" : "1a3e5dab97ba4a6d.json",
+  "parameterValues" : [ ]
+}
