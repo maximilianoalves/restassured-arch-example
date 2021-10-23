@@ -20,6 +20,17 @@ public class UsuariosRequest {
                     .get(PATH_USUARIOS);
     }
 
+    @Step("Listar usuários cadastrados")
+    public Response listar(String queryParam, String valueParam) {
+        return given()
+                .header("accept", "application/json")
+                .header("Content-Type", "application/json")
+                .when()
+                .queryParam(queryParam, valueParam)
+                .get(PATH_USUARIOS);
+    }
+
+
     @Step("Buscar usuário por ID")
     public Response buscarPorId(String id) {
         return given()
@@ -38,6 +49,16 @@ public class UsuariosRequest {
                 .when()
                     .body(UsuariosPayload.toJson(administrador))
                     .post(PATH_USUARIOS);
+    }
+
+    @Step("Cadastrar usuários")
+    public Response cadastrar(String nome, String email, String password, boolean administrador) {
+        return given()
+                .header("accept", "application/json")
+                .header("Content-Type", "application/json")
+                .when()
+                .body(UsuariosPayload.toJson(nome, email, password, administrador))
+                .post(PATH_USUARIOS);
     }
 
     @Step("Excluir usuário")

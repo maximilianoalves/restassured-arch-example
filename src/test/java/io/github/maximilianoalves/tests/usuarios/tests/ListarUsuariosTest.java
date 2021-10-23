@@ -3,7 +3,6 @@ package io.github.maximilianoalves.tests.usuarios.tests;
 import io.github.maximilianoalves.tests.base.tests.BaseTest;
 import io.github.maximilianoalves.tests.usuarios.requests.UsuariosRequest;
 import io.qameta.allure.Description;
-import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.http.HttpStatus;
@@ -29,6 +28,28 @@ public class ListarUsuariosTest extends BaseTest {
                 .then()
                 .statusCode(HttpStatus.SC_OK)
                 .time(lessThan(2L), TimeUnit.SECONDS);
+    }
+
+    @Test
+    @Tag("todos")
+    @Description("Deve listar os usuários administradores com sucesso.")
+    public void deveListarUsuariosAdministradoresComSucesso() throws Exception {
+        usuarios.listar("administrador", "true")
+                .then()
+                .statusCode(HttpStatus.SC_OK)
+                .body("usuarios", hasItems(allOf(hasEntry("administrador", "true"))));
+
+    }
+
+    @Test
+    @Tag("todos")
+    @Description("Deve listar os usuários não administradores com sucesso.")
+    public void deveListarUsuariosNaoAdministradoresComSucesso() throws Exception {
+        usuarios.listar("administrador", "false")
+                .then()
+                .statusCode(HttpStatus.SC_OK)
+                .body("usuarios", hasItems(allOf(hasEntry("administrador", "false"))));
+
     }
 
     @Tag("schemas")
