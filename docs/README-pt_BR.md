@@ -1,12 +1,9 @@
-<h1 align="center">Architecture example using Rest-Assured for api tests</h1>
+<h1 align="center">Exemplo de arquitetura de testes utilizando Rest-Assured</h1>
 
 [![Java CI](https://github.com/maximilianoalves/restassured-arch-template/actions/workflows/java-test-with-allure.yml/badge.svg)](https://github.com/maximilianoalves/restassured-arch-template/actions/workflows/java-test-with-allure.yml)  
+<p>Projeto criado para servir como exemplo de arquitetura para demais projetos de testes de API.</p>
 
-<b>Para acessar a versão em Português do Brasil, basta clicar [aqui](/docs/README-pt_BR.md)! :brazil:</b>
-
-<p>This project was created for example of structure for api testing using Java and Rest-Assured. </p>
-
-## Technologies and tools used:
+## Tecnologias utilizadas
 - [Java](https://www.java.com/pt-BR/)
 - [Rest-Assured](https://mvnrepository.com/artifact/io.rest-assured/rest-assured)
 - [Gson](https://mvnrepository.com/artifact/com.google.code.gson/gson)
@@ -15,7 +12,7 @@
 - [Allure](https://docs.qameta.io/allure/#_junit_5)
 - [Java faker](https://github.com/DiUS/java-faker)
 
-## File structure:
+## Estrutura de arquivos.
 
 📦src  
  ┣ 📂main  
@@ -79,21 +76,27 @@
  ┃ ┃ ┃ ┃ ┣ 📜usuario.json  
  ┃ ┃ ┃ ┃ ┗ 📜usuarios.json  
 
-## Execution Examples:
+## Exemplos de execução
 
 ```java
     mvn test -Dgroups=todos
 ```
 
-## Execution report
+## Relatório de execução
 
 - Job:
   - [https://github.com/maximilianoalves/restassured-arch-template/actions/workflows/java-test-with-allure.yml](https://github.com/maximilianoalves/restassured-arch-template/actions/workflows/java-test-with-allure.yml)  
 
-- Report: 
+- Relatório: 
   - [https://maximilianoalves.github.io/restassured-arch-template/](https://maximilianoalves.github.io/restassured-arch-template/)
 
-## Doubts or improvements !? contact me:
+## Melhorias, criticas ou dúvidas: 
 
-[![Twitter](https://badgen.net/badge/Twitter/%40max_dacruz?icon=twitter)](https://twitter.com/max_dacruz) [![Medium](https://badgen.net/badge/Medium/%40maximilianoalves?icon=medium)](https://medium.com/@maximilianoalves) [![Linkedin](https://badgen.net/badge/Linkedin/maximilianodacruz?icon=linkedin)](https://www.linkedin.com/in/maximilianodacruz/) [![Instagram](https://badgen.net/badge/Instagram/max_dacruz?icon=instagram)](https://www.instagram.com/max_dacruz/) [![Facebook](https://badgen.net/badge/Facebook/maximilianoalvesdacruz?icon=facebook)](https://www.facebook.com/maximilianoalvesdacruz)
+Não hesite em abrir uma issue ou entrar em contato comigo: 
+
+[![Twitter](https://badgen.net/badge/Twitter/%40max_dacruz?icon=twitter)](https://twitter.com/max_dacruz)
+[![Medium](https://badgen.net/badge/Medium/%40maximilianoalves?icon=medium)](https://medium.com/@maximilianoalves)
+[![Linkedin](https://badgen.net/badge/Linkedin/maximilianodacruz?icon=linkedin)](https://www.linkedin.com/in/maximilianodacruz/)
+[![Instagram](https://badgen.net/badge/Instagram/max_dacruz?icon=instagram)](https://www.instagram.com/max_dacruz/)
+[![Facebook](https://badgen.net/badge/Facebook/maximilianoalvesdacruz?icon=facebook)](https://www.facebook.com/maximilianoalvesdacruz)
 
